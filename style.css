@@ -55,11 +55,21 @@ body {
 .header-email {
   padding-left: 30px;
   background-image: url("img/icon-email-header.svg");
+  transition: color .2s linear;
+}
+
+.header-email:hover{
+  color: #952d2d;
 }
 
 .header-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone-header.svg");
+  transition: color .2s linear;
+}
+
+.header-phone:hover{
+  color: #952d2d;
 }
 
 .hero-image {
@@ -173,6 +183,7 @@ body {
 .projects p {
   margin: 0 0 24px;
 }
+/* Button */
 
 .button {
   padding: 6px 20px;
@@ -181,9 +192,17 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 4px;
+  border: 1px solid #288be6;
   background-color: #288be6;
   color: #ffffff;
   margin-bottom: 40px;
+  transition: border 0.2s linear, background-color 0.2s linear ;
+}
+
+
+.button:hover{
+  border: 1px solid #6fabe3;
+  background-color: #6fabe3;
 }
 
 .page-footer {
@@ -204,9 +223,19 @@ body {
 .footer-email {
   padding-left: 30px;
   background-image: url("img/icon-email-footer.svg");
+  transition: color .2s linear;
+}
+
+.footer-email:hover{
+  color: #952d2d;
 }
 
 .footer-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone-footer.svg");
+  transition: color .2s linear;
+}
+
+.footer-phone:hover{
+  color: #952d2d;
 }
