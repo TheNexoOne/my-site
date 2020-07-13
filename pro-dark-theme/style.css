@@ -102,7 +102,7 @@ body {
 
 .hero-image .container {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
 }
 
 .hero-image::before {
@@ -208,7 +208,6 @@ body {
 
 .skills {
   margin-bottom: 0;
-  margin-top: 50px;
 }
 
 .skills h3 {
@@ -267,26 +266,19 @@ body {
   padding: 0;
   list-style: none;
 }
-/*
+
 .projects li {
   position: relative;
   min-height: 256px;
   margin: 0 0 100px;
   padding-left: 528px;
-}*/
-
-.project-1{
-  margin: 40px auto;
-}
-
-.project-2{
-  margin: 40px auto;
 }
 
 .project-image {
+  position: absolute;
   top: 0;
   left: 0;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .project-image img {
