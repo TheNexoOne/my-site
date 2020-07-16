@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body {
   position: relative;
   margin: 0;
@@ -134,8 +138,8 @@ body {
   order: 2;
   margin: 0 0 0 -10px;
   width: 815px;
-  font-size: 96px;
-  line-height: 112px;
+  font-size: 60px;
+  line-height: 120%;
   font-weight: 500;
 }
 
@@ -151,6 +155,8 @@ body {
 }
 
 /* BUTTON UP*/
+
+
 .up-button {
   position: fixed;
   z-index: 1;
@@ -163,31 +169,37 @@ body {
   font-weight: bold;
   text-align: center;
   vertical-align: middle;
-  border: 5px solid;
+  border: 1px solid #0b0c23;
   border-radius: 50%;
   display: none;
   cursor: pointer;
-  color: #6653d9;
-  background-color: rgba(255, 255, 255, 0.8);
-  border-color: #6653d9;
+  color: #0b0c23;
+  background-color: #f9dd79;
+  box-shadow: 0 4px 16px rgba(249, 221, 121, 0.4);
   outline-color: #b6aaff;
+  transition: background-color 100ms, box-shadow 100ms;
+
 }
 
- .up-button:hover {
-  color: #473c8d;
-  background-color: rgba(255, 255, 255, 0.8);
-  border-color: #473c8d;
+.up-button:focus,
+.up-button:hover {
+  background-color: #f9e7a8;
+  box-shadow: 0 4px 32px rgba(249, 221, 121, 0.6);
 }
+
+
 .shown {
   display: inline-block;
-
 }
-
 
 .hidden {
   display: none;
 }
+
+
 /* ------------*/
+
+
 .intro,
 .portfolio {
   background-color: #141530;
@@ -197,13 +209,13 @@ body {
 }
 
 .intro {
-  padding-top: 160px;
+  padding-top: 50px;
   padding-bottom: 120px;
   min-height: 828px;
 }
 
 .subheading {
-  margin: 0 0 100px;
+  margin: 0 0 70px;
   text-align: center;
   font-size: 72px;
   line-height: 88px;
@@ -304,6 +316,8 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
+  display: flex;
+  flex-direction: row;
 }
 /*
 .projects li {
