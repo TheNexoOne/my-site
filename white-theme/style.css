@@ -3,16 +3,16 @@ html{
 }
 
 body {
-  position: relative;
   margin: 0;
-  min-width: 1408px;
+  min-width: 960px;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   line-height: 32px;
   color: #f2f2f2;
-  background-color: #141530;
-  background-image: url("img/pattern-lines-hero.svg");
-  background-position: center;
+  background-color: #080208;
+  background-image: url("img/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
 }
 
 /* Light-theme */
