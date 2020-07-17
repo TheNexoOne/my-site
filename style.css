@@ -778,7 +778,6 @@ padding-top: 20px;
   cursor: pointer;
   background-color: #5fa0dd;
   color: #ffffff;
-  box-shadow: 0 4px 16px rgba(249, 221, 121, 0.4);
   outline-color: #b6aaff;
   transition: background-color 100ms, box-shadow 100ms;
 
