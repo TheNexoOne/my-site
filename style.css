@@ -175,7 +175,7 @@ Body{
   position: absolute;
   content: "";
   top: 24px;
-  left: calc(50vw - 130px);
+  left: calc(50vw - 185px);
   width: 800px;
   height: 800px;
   background-image: url("img/hero-image.svg");
@@ -292,12 +292,12 @@ Body{
 
 .dark-theme .user-image {
   position: absolute;
-  margin: 0;
+  margin: auto 10%;
 }
 
 .dark-theme .user-image img {
-  width: 640px;
-  height: 640px;
+  width: 440px;
+  height: 440px;
   border-radius: 50%;
   object-fit: cover;
 }
