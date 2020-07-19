@@ -111,6 +111,21 @@ Body{
   width: 100%;
 }
 
+.dark-theme .header-vk,
+.dark-theme .footer-vk{
+  padding-left: 32px;
+  background-image: url("img/vkdlyaToli.svg");
+  background-size: 24%;
+}
+
+.dark-theme .header-vk:focus,
+.dark-theme .header-vk:hover,
+.dark-theme .footer-vk:focus,
+.dark-theme .footer-vk:hover {
+  background-image: url("img/vkdlyaToli-alt.svg");
+}
+
+
 .dark-theme  .header-email,
 .dark-theme  .footer-email {
   padding-left: 28px;
@@ -513,7 +528,7 @@ font-weight: bold;
 
 }
 .white-theme .page-header {
-  margin: 0 0 160px;
+  margin: 0 0 100px;
   padding: 32px 0 32px;
 }
 
@@ -756,6 +771,24 @@ font-weight: bold;
 
 .white-theme .footer-phone:hover{
   color: #952d2d;
+}
+
+.white-theme .header-vk{
+  padding-left: 32px;
+  background-image: url("img/vkdlyaToli-blue.svg");
+  background-size: 24%;
+}
+
+.white-theme .footer-vk{
+  padding-left: 32px;
+  background-image: url("img/vkdlyaToli.svg");
+  background-size: 24%;
+}
+
+.white-theme .footer-vk:hover,
+.white-theme .header-vk:hover{
+  color: #952d2d;
+
 }
 
 /* Up-Button */
