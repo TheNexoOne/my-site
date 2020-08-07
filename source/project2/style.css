@@ -19,7 +19,6 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
-
 *::before,
 *::after {
   box-sizing: border-box;
@@ -320,40 +319,30 @@ h1, h2, h3, h4, h5, h6 {
 .about_page {
   margin-bottom: 30px;
   padding: 59px 92px;
-
   width: 350px;
   height: 250px;
   background-color: #F7F7F7;
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-
   font-size: 21px;
   font-weight: 500;
   line-height: 31px;
   text-align: center;
-
   max-width: 172px;
   max-height: 132px;
 }
 
-.about_page img{
+.about_page img {
   margin-bottom: 30px;
 }
 
-
 /* GALLERY */
-
-
-.gallery{
-    margin: 0;
-
-    width: 100vw;
-    max-height: 814px;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap ;
+.gallery {
+  margin: 0;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
 }
