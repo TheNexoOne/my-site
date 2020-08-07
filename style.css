@@ -277,6 +277,18 @@ Body{
   min-height: 828px;
 }
 
+.dark-theme .intro .container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.dark-theme .intro-inner{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .dark-theme .subheading {
   margin: 0 0 70px;
   text-align: center;
@@ -286,25 +298,16 @@ Body{
   color: #f9dd79;
 }
 
-.dark-theme .intro .container {
-  position: relative;
-}
-
-.dark-theme .user-image {
-  position: absolute;
-  margin: auto 10%;
-}
-
 .dark-theme .user-image img {
   border-radius: 50%;
   object-fit: cover;
 }
-
+/*
 .dark-theme .intro .container div {
   margin-left: 720px;
   margin-bottom: 56px;
 }
-
+*/
 .dark-theme .intro h3,
 .dark-theme .portfolio h3 {
   margin: 0 0 16px;
